@@ -1,0 +1,39 @@
+#run {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: wolf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes wolf {
+    0%{
+        background-color: yellow;
+        border-radius: 0px;
+        transform: scale(0);
+        
+        
+    }
+    25%{
+        background-color: violet;
+        border-radius: 25px;
+        transform: scale(0.4);
+    }
+    50%{
+        background-color: tomato;
+        border-radius: 50px;
+        transform: scale(0.8);
+    }
+    75%{
+        background-color: steelblue;
+        border-radius: 75px;
+        transform: scale(1);
+    }
+    100%{
+        background-color: wheat;
+        border-radius: 100px;
+        transform: scale(1.5);
+        rotate: (360deg);
+    }
+}

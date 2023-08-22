@@ -1,0 +1,22 @@
+#on{
+    color: brown;
+}
+.off{
+    color: yellow;
+}
+*{
+    color: tomato;
+}
+div >p{
+    color: springgreen;
+}
+div h4{
+    color: royalblue;
+}
+[name='check']{
+    color: burlywood;
+}
+
+.brother+small{
+    color: sandybrown;
+}

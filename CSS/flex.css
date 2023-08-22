@@ -1,0 +1,9 @@
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    box-shadow: 0 0 5px gray;
+    width: 50%;
+}
+

@@ -1,0 +1,37 @@
+.H{
+    position: fixed;
+    background-color: lightslategrey;
+    color: white;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+
+}
+
+.A{
+    position: relative;
+    width: 300px;
+    background-color: azure;
+}
+.A img{
+    width: 100%;
+    
+}
+.A button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.H + p{
+    margin-top: 100px;
+}
+
+.sticky{
+    position: sticky;
+    width: 100%;
+    top: 100px;
+    background-color: bisque;
+    color: black;
+    z-index: 400;
+    text-align: center;
+}

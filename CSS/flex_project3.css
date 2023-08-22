@@ -1,0 +1,133 @@
+
+.parent3{
+    display: flex;
+    justify-content:  space-evenly;
+    width: 100%;
+    background-color: black;
+}
+.b1{
+    background-color: red;
+    width: 940px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.b2{
+    background-color: green;
+    width: 465px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.b3{
+    background-color: orange;
+    width: 460px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.parent4{
+    display: flex;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.b4{
+    background-color: rgb(247, 132, 0);
+    width: 550px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.b5{
+    background-color: rgb(102, 255, 0);
+    width: 550px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.b6{
+    background-color: rgb(145, 216, 117);
+    width: 550px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.b7{
+    background-color: rgb(0, 0, 0);
+    width: 550px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.parent5{
+    display: flex;
+    grid-template-columns: 48% 48%;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    background-color: black;
+}
+#child1{
+    background-color: rgb(247, 132, 0);
+    width: 1450px;
+    height: 210px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.parent6{
+    display: flex;
+    grid-template-columns: 48% 48%;
+    justify-content: space-evenly;
+    background-color: black;
+}
+#child2{
+    background-color: rgb(134, 224, 157);
+    width: 465px;
+    height: 100px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+#child3{
+    background-color: rgb(145, 216, 117);
+    width: 465px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#child4{
+    background-color: rgb(255, 38, 0);
+    width: 455px;
+    height: 100px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+#child5{
+    background-color: rgb(17, 17, 17);
+    width: 465px;
+    height: 100px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.parent7{
+    display: flex;
+    grid-template-columns: 75% 25%;
+    justify-content: space-evenly;
+    padding-top: 4px;
+    background-color: black;
+}
+.b8{
+    background-color: rgb(0, 255, 242);
+    width: 1420px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.b9{
+    background-color: rgb(255, 145, 0);
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+

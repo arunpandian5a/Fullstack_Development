@@ -1,0 +1,7 @@
+.parent p::first-line{
+    color: brown;
+}
+table tr:nth-child(1){
+    background-color: orangered;
+    color: antiquewhite;
+}

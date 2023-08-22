@@ -1,0 +1,6 @@
+.parent{
+    border: 3px solid rgb(225, 221, 235);
+    width: fit-content;
+    border-radius: 3px;
+    box-shadow: 15px 15px 20px rgb(209, 204, 214);
+}

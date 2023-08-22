@@ -1,0 +1,74 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+.child1 p{  
+    box-shadow: 0 0 5px grey;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(245, 164, 71);
+    margin-top: 10px;
+}
+.child1 h1{
+    box-shadow: 0 0 5px grey;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(100, 238, 248);
+    margin: 10px;
+}
+.child2 h2{
+    box-shadow: 0 0 5px grey;
+    width: 800px;
+    height: 550px;
+    background-color: rgb(255, 102, 0);
+}
+.subchild1 h4{
+    box-shadow: 0 0 5px grey;
+    width: 800px;
+    height: 225px;
+    background-color: rgb(63, 248, 233);
+}
+.subchild2 h5{
+    box-shadow: 0 0 5px grey;
+    width: 380px;
+    height: 265px;
+    background-color: rgb(63, 241, 116);
+}
+.subchild2 h6{
+    box-shadow: 0 0 5px grey;
+    width: 380px;
+    height: 265px;
+    background-color: rgb(253, 139, 8);
+    margin-left: 10px;
+}
+.child3{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .parent{ 
+       
+        grid-template-columns: repeat(1,100%);
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .parent{ 
+       
+        grid-template-columns: repeat(2,50%);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .parent{ 
+       
+        grid-template-columns: repeat(3,30%);
+    }
+}
+@media only screen and (max-width: 480px){
+    .parent{ 
+       
+        grid-template-columns: repeat(4,25%);
+    }
+}

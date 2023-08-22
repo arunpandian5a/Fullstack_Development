@@ -1,0 +1,13 @@
+.parent button{
+    background-color: violet;
+    border: none;
+    box-shadow: 0 0 5px blueviolet;
+    border-radius: 5px;
+}
+.parent button:hover{
+    background-color: slateblue;
+}
+.parent button:active{
+    background-color: tan;
+}
+

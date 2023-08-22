@@ -1,0 +1,34 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+* {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    transition: ease-in-out,.5s;
+}
+* a{
+    text-decoration: none !important;
+    font-family: "Poppins", sans-serif!important;
+}
+
+* div{
+    width: 100%;
+}
+.bg {
+    background-image: url(../images/hero-img.png);
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url(../IMAGE/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.fixed-top{
+    background: rgba(24, 6, 185, 0.8);
+    width: 100.7%;
+}
+.bg1 {
+    background-image: url(../IMAGE/hero-bg.jpg);
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url(../IMAGE/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
